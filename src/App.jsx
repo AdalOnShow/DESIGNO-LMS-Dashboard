@@ -1,10 +1,10 @@
-import Button from '@mui/material/Button';
+import Header from './components/Header';
 
 const App = () => {
   return (
-    <div>
-      <Button variant="contained">Hello world</Button>
-    </div>
+    <main className='font-inter'>
+      <Header />
+    </main>
   )
 }
 
